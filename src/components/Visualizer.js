@@ -402,12 +402,12 @@ const Visualizer = () => {
         >
           Dijkstra's Algorithm
         </button>
-        <button
-          className="visualizer-button"
-          onClick={() => visualizeAlgorithm('astar')}
-        >
-          A* Search
-        </button>
+        // <button
+        //   className="visualizer-button"
+        //   onClick={() => visualizeAlgorithm('astar')}
+        // >
+        //   A* Search
+        // </button>
         <button
           className="visualizer-button"
           onClick={() => visualizeAlgorithm('bfs')}
